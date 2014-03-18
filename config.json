@@ -1,9 +1,9 @@
 {
   "locals": {
     "url": "http://localhost:8080",
-    "name": "The Wintersmith's blog",
-    "owner": "Someone",
-    "description": "Ramblings of an immor(t)al demigod"
+    "name": "Beco Geek",
+    "owner": "BecoGeek",
+    "description": "Um local para você saber tudo sobre o Universo Geek e Nerd"
   },
   "plugins": [
     "./plugins/paginator.coffee",
@@ -26,7 +26,7 @@
   },
   "tag": {
     "template": "index.jade",
-    "perPage": 4
+    "perPage": 5
   },
   "output": "./"
 }

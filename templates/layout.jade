@@ -11,26 +11,49 @@ html(lang='en')
         block title
           = locals.name
       link(rel='alternate', href=locals.url+'/feed.xml', type='application/rss+xml', title=locals.description)
-      link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300')
+      link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Didact+Gothic')
+      link(rel='stylesheet', href='/bootstrap/css/bootstrap.min.css')
       link(rel='stylesheet', href='/css/main.css')
   body(class=bodyclass)
     header.header
-      div.content-wrap
+      .navbar.navbar-default.navbar-fixed-top.navbar-inverse(role='navigation')
+        .container
+          .navbar-header
+            button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+              span.sr-only Toggle navigation
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+            a.navbar-brand(href=locals.url) Beco Geek
+          .navbar-collapse.collapse
+            ul.nav.navbar-nav
+              li
+                a(href='#') Loren
+              li
+                a(href='#about') Ipsun
+              li
+                a(href='#contact') Dolar Sit
+            ul.nav.navbar-nav.navbar-right
+              li
+                a.icon(href='')
+                  //-img(alt='Curtir', src='/img/like.png')
+              li
+                a.icon(href='')
+                  //-img(alt='Twitter', src='/img/twitter.png')
+      div#banner
+        .banner-home
+          img(alt='', src='/img/banner-home.jpg')
         block header
-          div.logo
+          div.logo.container.marketing
             h1
               a(href=locals.url)= locals.name
             p.description= locals.description
-    div#content
-      div.content-wrap
+    div.container.marketing
+      div
         block content
           h2 Welcome to zombocom!
     footer
-      div.content-wrap
+      div
         block footer
-          section.about
-            !=contents['about.md'].html
           section.copy
             p &copy; #{ new Date().getFullYear() } #{ locals.owner } &mdash; powered by&nbsp;
-              a(href='https://github.com/jnordberg/wintersmith') Wintersmith
-              //- please leave the "powered by" if you use the design

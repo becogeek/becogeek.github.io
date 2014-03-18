@@ -2,21 +2,34 @@ extends layout
 
 block content
   include author
+  - var cont = 0;
   each article in articles
-    article.article.intro
-      header
-        p.date
-          span= moment.utc(article.date).format('DD. MMMM YYYY')
-        h2
-          a(href=article.url)= article.title
-      section.content
-        !{ typogr(article.intro).typogrify() }
-        if article.hasMore
-          p.more
-            a(href=article.url) more
-            //- a(href=env.helpers.getTagHome(tagName).url)= tagName
-
-block prepend footer
+    if cont%2 === 0
+      hr.featurette-divider
+      .row.featurette
+        .col-md-8
+          h2.featurette-heading
+            a(href=article.url)= article.title
+          p.lead
+            !{ typogr(article.intro).typogrify() }
+          p.date
+            span= moment.utc(article.date).format('DD. MMMM YYYY')
+        .col-md-4.text-right
+          img.post-img(alt='texto alternativo', src='img/250x250.jpeg')
+    else
+      hr.featurette-divider
+      .row.featurette
+        .col-md-4
+          img.post-img(alt='texto alternativo', src='img/250x250.jpeg')
+        .col-md-8.text-right
+          h2.featurette-heading
+            a(href=article.url)= article.title
+          p.lead
+            !{ typogr(article.intro).typogrify() }
+          p.date
+            span= moment.utc(article.date).format('DD. MMMM YYYY')
+    - cont = cont + 1;
+  hr.featurette-divider
   div.nav
     if prevPage
       a(href=prevPage.url) « Newer
@@ -24,6 +37,11 @@ block prepend footer
       a(href='/archive.html') « Archives
     if nextPage
       a(href=nextPage.url) Next page »
+
+
+//-block prepend footer
+  
+   
 
 
 
