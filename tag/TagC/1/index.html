@@ -4,79 +4,84 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width">
-    <title>The Wintersmith's blog
+    <title>Beco Geek
     </title>
-    <link rel="alternate" href="http://localhost:8080/feed.xml" type="application/rss+xml" title="Ramblings of an immor(t)al demigod">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300">
+    <link rel="alternate" href="http://localhost:8080/feed.xml" type="application/rss+xml" title="Um local para você saber tudo sobre o Universo Geek e Nerd">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Didact+Gothic">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/main.css">
   </head>
   <body>
     <header class="header">
-      <div class="content-wrap">
-        <div class="logo">
-          <h1><a href="http://localhost:8080">The Wintersmith's blog</a></h1>
-          <p class="description">Ramblings of an immor(t)al demigod</p>
+      <div role="navigation" class="navbar navbar-default navbar-fixed-top navbar-inverse">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="http://localhost:8080" class="navbar-brand">Beco Geek</a>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="#">Loren</a></li>
+              <li><a href="#about">Ipsun</a></li>
+              <li><a href="#contact">Dolar Sit</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="" class="icon"></a></li>
+              <li><a href="" class="icon"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="banner">
+        <div class="banner-home"><img alt="" src="/img/banner-home.jpg"></div>
+        <div class="logo container marketing">
+          <h1><a href="http://localhost:8080">Beco Geek</a></h1>
+          <p class="description">Um local para você saber tudo sobre o Universo Geek e Nerd</p>
         </div>
       </div>
     </header>
-    <div id="content">
-      <div class="content-wrap">
-        <article class="article intro">
-          <header>
+    <div class="container marketing">
+      <div>
+        <hr class="featurette-divider">
+        <div class="row featurette">
+          <div class="col-md-8">
+            <h2 class="featurette-heading"><a href="/articles/hello-world/">README</a></h2>
+            <p class="lead"><p>Welcome to your new blog! This is the default blog template with <span class="caps">RSS</span>, pagination and an archive. There are other templates available — run <code>wintersmith new --help</code> to list&nbsp;them.</p>
+</p>
             <p class="date"><span>30. April 2013</span></p>
-            <h2><a href="/articles/hello-world/">README</a></h2>
-          </header>
-          <section class="content"><p>Welcome to your new blog! This is the default blog template with <span class="caps">RSS</span>, pagination and an archive. There are other templates available — run <code>wintersmith new --help</code> to list&nbsp;them.</p>
-
-            <p class="more"><a href="/articles/hello-world/">more</a>
-            </p>
-          </section>
-        </article>
-        <article class="article intro">
-          <header>
-            <p class="date"><span>01. April 2013</span></p>
-            <h2><a href="/articles/red-herring/">A red herring</a></h2>
-          </header>
-          <section class="content"><p>A long time ago, when the world was young — someone put some food on their tongue.
+          </div>
+          <div class="col-md-4 text-right"><img alt="texto alternativo" src="img/250x250.jpeg" class="post-img"></div>
+        </div>
+        <hr class="featurette-divider">
+        <div class="row featurette">
+          <div class="col-md-4"><img alt="texto alternativo" src="img/250x250.jpeg" class="post-img"></div>
+          <div class="col-md-8 text-right">
+            <h2 class="featurette-heading"><a href="/articles/red-herring/">A red herring</a></h2>
+            <p class="lead"><p>A long time ago, when the world was young — someone put some food on their tongue.
 They tasted the food, and thought it was nice. Most fruit liked it — but banana’s thought&nbsp;twice.</p>
-<p>
-            <p class="more"><a href="/articles/red-herring/">more</a>
-            </p>
-          </section>
-        </article>
-        <article class="article intro">
-          <header>
-            <p class="date"><span>02. February 2012</span></p>
-            <h2><a href="/articles/markdown-syntax/">Markdown syntax</a></h2>
-          </header>
-          <section class="content"><p>Full markdown syntax taken from John Gruber’s <a href="http://daringfireball.net/projects/markdown/syntax">Daring Fireball</a>.
+<p></p>
+            <p class="date"><span>01. April 2013</span></p>
+          </div>
+        </div>
+        <hr class="featurette-divider">
+        <div class="row featurette">
+          <div class="col-md-8">
+            <h2 class="featurette-heading"><a href="/articles/markdown-syntax/">Markdown syntax</a></h2>
+            <p class="lead"><p>Full markdown syntax taken from John Gruber’s <a href="http://daringfireball.net/projects/markdown/syntax">Daring Fireball</a>.
 Did you know that 9 out of 10 bloggers prefer to write in&nbsp;markdown?</p>
-
-            <p class="more"><a href="/articles/markdown-syntax/">more</a>
-            </p>
-          </section>
-        </article>
+</p>
+            <p class="date"><span>02. February 2012</span></p>
+          </div>
+          <div class="col-md-4 text-right"><img alt="texto alternativo" src="img/250x250.jpeg" class="post-img"></div>
+        </div>
+        <hr class="featurette-divider">
+        <div class="nav"><a href="/archive.html">« Archives</a>
+        </div>
       </div>
     </div>
     <footer>
-      <div class="content-wrap">
-        <div class="nav"><a href="/archive.html">« Archives</a>
-        </div>
-        <section class="about"><p>Wintersmith is made by <a href="http://johan-nordberg.com/">Johan Nordberg</a> and licensed under the <a href="http://opensource.org/licenses/MIT">MIT-license</a>.
-This footer text can be edited in about.md</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat.</p>
-<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-dolore eu fugiat nulla pariatur.</p>
-<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-deserunt mollit anim id est laborum.</p>
-
-        </section>
+      <div>
         <section class="copy">
-          <p>&copy; 2014 Someone &mdash; powered by&nbsp;<a href="https://github.com/jnordberg/wintersmith">Wintersmith</a>
-          </p>
+          <p>&copy; 2014 BecoGeek &mdash; powered by&nbsp;</p>
         </section>
       </div>
     </footer>

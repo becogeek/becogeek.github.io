@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>The Wintersmith's blog</title>
+    <title>Beco Geek</title>
     <atom:link href="http://localhost:8080/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://localhost:8080</link>
-    <description>Ramblings of an immor(t)al demigod</description>
+    <description>Um local para você saber tudo sobre o Universo Geek e Nerd</description>
     <pubDate>Mon, 29 Apr 2013 21:00:00 -0300</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
@@ -50,8 +50,8 @@
 │   ├── index.jade
 │   └── layout.jade
 └── views
-    └── articles.coffee       &amp;lt;- view that lists articles&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Articles are sorted by date and 3 are shown per page, you can configure this and more in config.json. Check paginator.coffee for all options related to pagination, most plugins also have their own options.&lt;/p&gt;
+    └── articles.coffee       &amp;lt;- view that lists articles
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Articles are sorted by date and 3 are shown per page, you can configure this and more in config.json. Check paginator.coffee for all options related to pagination, most plugins also have their own options.&lt;/p&gt;
 &lt;h3 id=&quot;a-typical-article&quot;&gt;A typical article&lt;/h3&gt;
 &lt;pre&gt;&lt;code class=&quot;lang-markdown&quot;&gt;&lt;span class=&quot;horizontal_rule&quot;&gt;---&lt;/span&gt;
 title: Hear me blog
@@ -68,7 +68,8 @@ tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/code&gt;&lt;/pre&gt;
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;This is where I leave you to your own devices. Join &lt;strong&gt;#wintersmith&lt;/strong&gt; on freenode if you have any questions.&lt;/p&gt;
 </description>
     </item>
@@ -113,7 +114,8 @@ The theme used is tomorrow, you can find more themes &lt;a href=&quot;http://jmb
 &lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;getRandomNumber&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;()&lt;/span&gt; {&lt;/span&gt;
     &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;; &lt;span class=&quot;comment&quot;&gt;// chosen by fair dice roll.&lt;/span&gt;
               &lt;span class=&quot;comment&quot;&gt;// guaranteed to be random.&lt;/span&gt;
-}&lt;/code&gt;&lt;/pre&gt;
+}
+&lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id=&quot;coffeescript&quot;&gt;CoffeeScript&lt;/h3&gt;
 &lt;pre&gt;&lt;code class=&quot;lang-coffeescript&quot;&gt;&lt;span class=&quot;class&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;Animal&lt;/span&gt;&lt;/span&gt;
   &lt;span class=&quot;comment&quot;&gt;### Intellegent design ###&lt;/span&gt;
@@ -128,15 +130,17 @@ The theme used is tomorrow, you can find more themes &lt;a href=&quot;http://jmb
 
 &lt;span class=&quot;class&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;Human&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;Monkey&lt;/span&gt;&lt;/span&gt;
   &lt;span class=&quot;attribute&quot;&gt;speak&lt;/span&gt;:&lt;span class=&quot;function&quot;&gt; -&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;built_in&quot;&gt;print&lt;/span&gt; [&lt;span class=&quot;string&quot;&gt;'yolo'&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;unless&lt;/span&gt; i % &lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;] + [&lt;span class=&quot;string&quot;&gt;'swag'&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;unless&lt;/span&gt; i % &lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;] &lt;span class=&quot;keyword&quot;&gt;or&lt;/span&gt; i &lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt; i &lt;span class=&quot;keyword&quot;&gt;in&lt;/span&gt; [&lt;span class=&quot;number&quot;&gt;1.&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.100&lt;/span&gt;]&lt;/code&gt;&lt;/pre&gt;
+    &lt;span class=&quot;built_in&quot;&gt;print&lt;/span&gt; [&lt;span class=&quot;string&quot;&gt;'yolo'&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;unless&lt;/span&gt; i % &lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;] + [&lt;span class=&quot;string&quot;&gt;'swag'&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;unless&lt;/span&gt; i % &lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;] &lt;span class=&quot;keyword&quot;&gt;or&lt;/span&gt; i &lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt; i &lt;span class=&quot;keyword&quot;&gt;in&lt;/span&gt; [&lt;span class=&quot;number&quot;&gt;1.&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.100&lt;/span&gt;]
+&lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id=&quot;c&quot;&gt;C&lt;/h3&gt;
 &lt;pre&gt;&lt;code class=&quot;lang-c&quot;&gt;&lt;span class=&quot;preprocessor&quot;&gt;#include &amp;lt;stdio.h&amp;gt;&lt;/span&gt;
 
 &lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; main(&lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt;)
 {
-  printf(&lt;span class=&quot;string&quot;&gt;&quot;Hello world\n&quot;&lt;/span&gt;);
+  &lt;span class=&quot;built_in&quot;&gt;printf&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&quot;Hello world\n&quot;&lt;/span&gt;);
   &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;;
-}&lt;/code&gt;&lt;/pre&gt;
+}
+&lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id=&quot;c-&quot;&gt;C++&lt;/h3&gt;
 &lt;pre&gt;&lt;code class=&quot;lang-cpp&quot;&gt;&lt;span class=&quot;preprocessor&quot;&gt;#include &amp;lt;iostream&amp;gt;&lt;/span&gt;
 
@@ -144,17 +148,20 @@ The theme used is tomorrow, you can find more themes &lt;a href=&quot;http://jmb
 {
   &lt;span class=&quot;built_in&quot;&gt;std&lt;/span&gt;::&lt;span class=&quot;built_in&quot;&gt;cout&lt;/span&gt; &amp;lt;&amp;lt; &lt;span class=&quot;string&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt; &amp;lt;&amp;lt; &lt;span class=&quot;built_in&quot;&gt;std&lt;/span&gt;::endl;
   &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;;
-}&lt;/code&gt;&lt;/pre&gt;
+}
+&lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id=&quot;c-sharp&quot;&gt;C-sharp&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&quot;lang-cs&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;class&lt;/span&gt; ExampleClass
+&lt;pre&gt;&lt;code class=&quot;lang-cs&quot;&gt;class ExampleClass
 {
     &lt;span class=&quot;keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt; Main()
     {
         System.Console.WriteLine(&lt;span class=&quot;string&quot;&gt;&quot;Hello, world!&quot;&lt;/span&gt;);
     }
-}&lt;/code&gt;&lt;/pre&gt;
+}
+&lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id=&quot;erlang&quot;&gt;Erlang&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&quot;lang-erlang&quot;&gt;io:format(&lt;span class=&quot;string&quot;&gt;&quot;~s~n&quot;&lt;/span&gt;, [&lt;span class=&quot;string&quot;&gt;&quot;hello, world&quot;&lt;/span&gt;])&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-erlang&quot;&gt;io:format(&lt;span class=&quot;string&quot;&gt;&quot;~s~n&quot;&lt;/span&gt;, [&lt;span class=&quot;string&quot;&gt;&quot;hello, world&quot;&lt;/span&gt;])
+&lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id=&quot;go&quot;&gt;Go&lt;/h3&gt;
 &lt;pre&gt;&lt;code class=&quot;lang-go&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;package&lt;/span&gt; main
 
@@ -162,13 +169,15 @@ The theme used is tomorrow, you can find more themes &lt;a href=&quot;http://jmb
 
 &lt;span class=&quot;keyword&quot;&gt;func&lt;/span&gt; main() {
    fmt.Println(&lt;span class=&quot;string&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;)
-}&lt;/code&gt;&lt;/pre&gt;
+}
+&lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id=&quot;java&quot;&gt;Java&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&quot;lang-java&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;class&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;HelloWorld&lt;/span&gt; &lt;/span&gt;{
-   &lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt; main(String[] args) {
+&lt;pre&gt;&lt;code class=&quot;lang-java&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;class&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;HelloWorld&lt;/span&gt; {&lt;/span&gt;
+   &lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;main&lt;/span&gt;(String[] args) {
        System.out.println(&lt;span class=&quot;string&quot;&gt;&quot;Hello world!&quot;&lt;/span&gt;);
    }
-}&lt;/code&gt;&lt;/pre&gt;
+}
+&lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id=&quot;objectivec&quot;&gt;ObjectiveC&lt;/h3&gt;
 &lt;pre&gt;&lt;code class=&quot;lang-objectivec&quot;&gt;&lt;span class=&quot;preprocessor&quot;&gt;#import &lt;span class=&quot;title&quot;&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;/span&gt;
 
@@ -176,13 +185,17 @@ The theme used is tomorrow, you can find more themes &lt;a href=&quot;http://jmb
 {
     printf(&lt;span class=&quot;string&quot;&gt;&quot;Hello, World!\n&quot;&lt;/span&gt;);
     &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;;
-}&lt;/code&gt;&lt;/pre&gt;
+}
+&lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id=&quot;php&quot;&gt;PHP&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&quot;lang-php&quot;&gt;&lt;span class=&quot;preprocessor&quot;&gt;&amp;lt;?php&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;'Hello, world'&lt;/span&gt;; &lt;span class=&quot;preprocessor&quot;&gt;?&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-php&quot;&gt;&lt;span class=&quot;preprocessor&quot;&gt;&amp;lt;?php&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;'Hello, world'&lt;/span&gt;; &lt;span class=&quot;preprocessor&quot;&gt;?&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id=&quot;python&quot;&gt;Python&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&quot;lang-python&quot;&gt;print(&lt;span class=&quot;string&quot;&gt;&quot;Hello World&quot;&lt;/span&gt;)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-python&quot;&gt;print(&lt;span class=&quot;string&quot;&gt;&quot;Hello World&quot;&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id=&quot;ruby&quot;&gt;Ruby&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&quot;lang-ruby&quot;&gt;puts &lt;span class=&quot;string&quot;&gt;&quot;Hello world!&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-ruby&quot;&gt;puts &lt;span class=&quot;string&quot;&gt;&quot;Hello world!&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     <item>
@@ -275,8 +288,8 @@ to add extra (unwanted) &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt; tags around H
     &amp;lt;/tr&amp;gt;
 &amp;lt;/table&amp;gt;
 
-This is another regular paragraph.&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Note that Markdown formatting syntax is not processed within block-level
+This is another regular paragraph.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Note that Markdown formatting syntax is not processed within block-level
 HTML tags. E.g., you can’t use Markdown-style &lt;code&gt;*emphasis*&lt;/code&gt; inside an
 HTML block.&lt;/p&gt;
 &lt;p&gt;Span-level HTML tags — e.g. &lt;code&gt;&amp;lt;span&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;cite&amp;gt;&lt;/code&gt;, or &lt;code&gt;&amp;lt;del&amp;gt;&lt;/code&gt; — can be
@@ -296,10 +309,10 @@ characters, you must escape them as entities, e.g. &lt;code&gt;&amp;amp;lt;&lt;/
 &lt;p&gt;Ampersands in particular are bedeviling for web writers. If you want to
 write about ‘AT&amp;amp;T’, you need to write ‘&lt;code&gt;AT&amp;amp;amp;T&lt;/code&gt;‘. You even need to
 escape ampersands within URLs. Thus, if you want to link to:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;http://images.google.com/images?num=30&amp;amp;q=larry+bird&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;you need to encode the URL as:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;http://images.google.com/images?num=30&amp;amp;amp;q=larry+bird&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;in your anchor tag &lt;code&gt;href&lt;/code&gt; attribute. Needless to say, this is easy to
+&lt;pre&gt;&lt;code&gt;http://images.google.com/images?num=30&amp;amp;q=larry+bird
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;you need to encode the URL as:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;http://images.google.com/images?num=30&amp;amp;amp;q=larry+bird
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;in your anchor tag &lt;code&gt;href&lt;/code&gt; attribute. Needless to say, this is easy to
 forget, and is probably the single most common source of HTML validation
 errors in otherwise well-marked-up web sites.&lt;/p&gt;
 &lt;p&gt;Markdown allows you to use these characters naturally, taking care of
@@ -307,18 +320,18 @@ all the necessary escaping for you. If you use an ampersand as part of
 an HTML entity, it remains unchanged; otherwise it will be translated
 into &lt;code&gt;&amp;amp;amp;&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;So, if you want to include a copyright symbol in your article, you can write:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;amp;copy;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;and Markdown will leave it alone. But if you write:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;AT&amp;amp;T&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Markdown will translate it to:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;AT&amp;amp;amp;T&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Similarly, because Markdown supports &lt;a href=&quot;http://localhost:8080/articles/markdown-syntax/#html&quot;&gt;inline HTML&lt;/a&gt;, if you use
+&lt;pre&gt;&lt;code&gt;&amp;amp;copy;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;and Markdown will leave it alone. But if you write:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;AT&amp;amp;T
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Markdown will translate it to:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;AT&amp;amp;amp;T
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Similarly, because Markdown supports &lt;a href=&quot;http://localhost:8080/articles/markdown-syntax/#html&quot;&gt;inline HTML&lt;/a&gt;, if you use
 angle brackets as delimiters for HTML tags, Markdown will treat them as
 such. But if you write:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;4 &amp;lt; 5&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Markdown will translate it to:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;4 &amp;amp;lt; 5&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;However, inside Markdown code spans and blocks, angle brackets and
+&lt;pre&gt;&lt;code&gt;4 &amp;lt; 5
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Markdown will translate it to:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;4 &amp;amp;lt; 5
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;However, inside Markdown code spans and blocks, angle brackets and
 ampersands are &lt;em&gt;always&lt;/em&gt; encoded automatically. This makes it easy to use
 Markdown to write about HTML code. (As opposed to raw HTML, which is a
 terrible format for writing about HTML syntax, because every single &lt;code&gt;&amp;lt;&lt;/code&gt;
@@ -353,16 +366,16 @@ headers) and dashes (for second-level headers). For example:&lt;/p&gt;
 =============
 
 This is an H2
--------------&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Any number of underlining &lt;code&gt;=&lt;/code&gt;‘s or &lt;code&gt;-&lt;/code&gt;‘s will work.&lt;/p&gt;
+-------------
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Any number of underlining &lt;code&gt;=&lt;/code&gt;‘s or &lt;code&gt;-&lt;/code&gt;‘s will work.&lt;/p&gt;
 &lt;p&gt;Atx-style headers use 1-6 hash characters at the start of the line,
 corresponding to header levels 1-6. For example:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;# This is an H1
 
 ## This is an H2
 
-###### This is an H6&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Optionally, you may “close” atx-style headers. This is purely
+###### This is an H6
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Optionally, you may “close” atx-style headers. This is purely
 cosmetic — you can use this if you think it looks better. The
 closing hashes don’t even need to match the number of hashes
 used to open the header. (The number of opening hashes
@@ -371,8 +384,8 @@ determines the header level.) :&lt;/p&gt;
 
 ## This is an H2 ##
 
-### This is an H3 ######&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&quot;blockquote&quot;&gt;Blockquotes&lt;/h3&gt;
+### This is an H3 ######
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;blockquote&quot;&gt;Blockquotes&lt;/h3&gt;
 
 &lt;p&gt;Markdown uses email-style &lt;code&gt;&amp;gt;&lt;/code&gt; characters for blockquoting. If you’re
 familiar with quoting passages of text in an email message, then you
@@ -383,23 +396,23 @@ wrap the text and put a &lt;code&gt;&amp;gt;&lt;/code&gt; before every line:&lt;
 &amp;gt; Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
 &amp;gt;
 &amp;gt; Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
-&amp;gt; id sem consectetuer libero luctus adipiscing.&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Markdown allows you to be lazy and only put the &lt;code&gt;&amp;gt;&lt;/code&gt; before the first
+&amp;gt; id sem consectetuer libero luctus adipiscing.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Markdown allows you to be lazy and only put the &lt;code&gt;&amp;gt;&lt;/code&gt; before the first
 line of a hard-wrapped paragraph:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;gt; This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
 consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
 Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
 
 &amp;gt; Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
-id sem consectetuer libero luctus adipiscing.&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Blockquotes can be nested (i.e. a blockquote-in-a-blockquote) by
+id sem consectetuer libero luctus adipiscing.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Blockquotes can be nested (i.e. a blockquote-in-a-blockquote) by
 adding additional levels of &lt;code&gt;&amp;gt;&lt;/code&gt;:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;gt; This is the first level of quoting.
 &amp;gt;
 &amp;gt; &amp;gt; This is nested blockquote.
 &amp;gt;
-&amp;gt; Back to the first level.&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Blockquotes can contain other Markdown elements, including headers, lists,
+&amp;gt; Back to the first level.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Blockquotes can contain other Markdown elements, including headers, lists,
 and code blocks:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;h2 id=&quot;this-is-a-header-&quot;&gt;This is a header.&lt;/h2&gt;
@@ -408,8 +421,8 @@ and code blocks:&lt;/p&gt;
 &lt;li&gt;This is the second list item.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Here’s some example code:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;return shell_exec(&amp;quot;echo $input | $markdown_script&amp;quot;);&lt;/code&gt;&lt;/pre&gt;
-&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;return shell_exec(&amp;quot;echo $input | $markdown_script&amp;quot;);
+&lt;/code&gt;&lt;/pre&gt;&lt;/blockquote&gt;
 &lt;p&gt;Any decent text editor should make email-style quoting easy. For
 example, with BBEdit, you can make a selection and choose Increase
 Quote Level from the Text menu.&lt;/p&gt;
@@ -420,36 +433,36 @@ Quote Level from the Text menu.&lt;/p&gt;
 — as list markers:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;*   Red
 *   Green
-*   Blue&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;is equivalent to:&lt;/p&gt;
+*   Blue
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;is equivalent to:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;+   Red
 +   Green
-+   Blue&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;and:&lt;/p&gt;
++   Blue
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;and:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;-   Red
 -   Green
--   Blue&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Ordered lists use numbers followed by periods:&lt;/p&gt;
+-   Blue
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Ordered lists use numbers followed by periods:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;1.  Bird
 2.  McHale
-3.  Parish&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;It’s important to note that the actual numbers you use to mark the
+3.  Parish
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;It’s important to note that the actual numbers you use to mark the
 list have no effect on the HTML output Markdown produces. The HTML
 Markdown produces from the above list is:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;ol&amp;gt;
 &amp;lt;li&amp;gt;Bird&amp;lt;/li&amp;gt;
 &amp;lt;li&amp;gt;McHale&amp;lt;/li&amp;gt;
 &amp;lt;li&amp;gt;Parish&amp;lt;/li&amp;gt;
-&amp;lt;/ol&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;If you instead wrote the list in Markdown like this:&lt;/p&gt;
+&amp;lt;/ol&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;If you instead wrote the list in Markdown like this:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;1.  Bird
 1.  McHale
-1.  Parish&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;or even:&lt;/p&gt;
+1.  Parish
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;or even:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;3. Bird
 1. McHale
-8. Parish&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;you’d get the exact same HTML output. The point is, if you want to,
+8. Parish
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;you’d get the exact same HTML output. The point is, if you want to,
 you can use ordinal numbers in your ordered Markdown lists, so that
 the numbers in your source match the numbers in your published HTML.
 But if you want to be lazy, you don’t have to.&lt;/p&gt;
@@ -464,32 +477,32 @@ or a tab.&lt;/p&gt;
     Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
     viverra nec, fringilla in, laoreet vitae, risus.
 *   Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
-    Suspendisse id sem consectetuer libero luctus adipiscing.&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;But if you want to be lazy, you don’t have to:&lt;/p&gt;
+    Suspendisse id sem consectetuer libero luctus adipiscing.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;But if you want to be lazy, you don’t have to:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;*   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
 viverra nec, fringilla in, laoreet vitae, risus.
 *   Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
-Suspendisse id sem consectetuer libero luctus adipiscing.&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;If list items are separated by blank lines, Markdown will wrap the
+Suspendisse id sem consectetuer libero luctus adipiscing.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;If list items are separated by blank lines, Markdown will wrap the
 items in &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt; tags in the HTML output. For example, this input:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;*   Bird
-*   Magic&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;will turn into:&lt;/p&gt;
+*   Magic
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;will turn into:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;ul&amp;gt;
 &amp;lt;li&amp;gt;Bird&amp;lt;/li&amp;gt;
 &amp;lt;li&amp;gt;Magic&amp;lt;/li&amp;gt;
-&amp;lt;/ul&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;But this:&lt;/p&gt;
+&amp;lt;/ul&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;But this:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;*   Bird
 
-*   Magic&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;will turn into:&lt;/p&gt;
+*   Magic
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;will turn into:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;ul&amp;gt;
 &amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Bird&amp;lt;/p&amp;gt;&amp;lt;/li&amp;gt;
 &amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Magic&amp;lt;/p&amp;gt;&amp;lt;/li&amp;gt;
-&amp;lt;/ul&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;List items may consist of multiple paragraphs. Each subsequent
+&amp;lt;/ul&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;List items may consist of multiple paragraphs. Each subsequent
 paragraph in a list item must be indented by either 4 spaces
 or one tab:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;1.  This is a list item with two paragraphs. Lorem ipsum dolor
@@ -500,8 +513,8 @@ or one tab:&lt;/p&gt;
     vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
     sit amet velit.
 
-2.  Suspendisse id sem consectetuer libero luctus adipiscing.&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;It looks nice if you indent every line of the subsequent
+2.  Suspendisse id sem consectetuer libero luctus adipiscing.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;It looks nice if you indent every line of the subsequent
 paragraphs, but here again, Markdown will allow you to be
 lazy:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;*   This is a list item with two paragraphs.
@@ -510,25 +523,25 @@ lazy:&lt;/p&gt;
 only required to indent the first line. Lorem ipsum dolor
 sit amet, consectetuer adipiscing elit.
 
-*   Another item in the same list.&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;To put a blockquote within a list item, the blockquote’s &lt;code&gt;&amp;gt;&lt;/code&gt;
+*   Another item in the same list.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;To put a blockquote within a list item, the blockquote’s &lt;code&gt;&amp;gt;&lt;/code&gt;
 delimiters need to be indented:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;*   A list item with a blockquote:
 
     &amp;gt; This is a blockquote
-    &amp;gt; inside a list item.&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;To put a code block within a list item, the code block needs
+    &amp;gt; inside a list item.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;To put a code block within a list item, the code block needs
 to be indented &lt;em&gt;twice&lt;/em&gt; — 8 spaces or two tabs:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;*   A list item with a code block:
 
-        &amp;lt;code goes here&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;It’s worth noting that it’s possible to trigger an ordered list by
+        &amp;lt;code goes here&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;It’s worth noting that it’s possible to trigger an ordered list by
 accident, by writing something like this:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;1986. What a great season.&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;In other words, a &lt;em&gt;number-period-space&lt;/em&gt; sequence at the beginning of a
+&lt;pre&gt;&lt;code&gt;1986. What a great season.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;In other words, a &lt;em&gt;number-period-space&lt;/em&gt; sequence at the beginning of a
 line. To avoid this, you can backslash-escape the period:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;1986\. What a great season.&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&quot;precode&quot;&gt;Code Blocks&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;1986\. What a great season.
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;precode&quot;&gt;Code Blocks&lt;/h3&gt;
 
 &lt;p&gt;Pre-formatted code blocks are used for writing about programming or
 markup source code. Rather than forming normal paragraphs, the lines
@@ -538,27 +551,27 @@ in both &lt;code&gt;&amp;lt;pre&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;cod
 block by at least 4 spaces or 1 tab. For example, given this input:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;This is a normal paragraph:
 
-    This is a code block.&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Markdown will generate:&lt;/p&gt;
+    This is a code block.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Markdown will generate:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;This is a normal paragraph:&amp;lt;/p&amp;gt;
 
 &amp;lt;pre&amp;gt;&amp;lt;code&amp;gt;This is a code block.
-&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;One level of indentation — 4 spaces or 1 tab — is removed from each
+&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;One level of indentation — 4 spaces or 1 tab — is removed from each
 line of the code block. For example, this:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;Here is an example of AppleScript:
 
     tell application &amp;quot;Foo&amp;quot;
         beep
-    end tell&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;will turn into:&lt;/p&gt;
+    end tell
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;will turn into:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;Here is an example of AppleScript:&amp;lt;/p&amp;gt;
 
 &amp;lt;pre&amp;gt;&amp;lt;code&amp;gt;tell application &amp;quot;Foo&amp;quot;
     beep
 end tell
-&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;A code block continues until it reaches a line that is not indented
+&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;A code block continues until it reaches a line that is not indented
 (or the end of the article).&lt;/p&gt;
 &lt;p&gt;Within a code block, ampersands (&lt;code&gt;&amp;amp;&lt;/code&gt;) and angle brackets (&lt;code&gt;&amp;lt;&lt;/code&gt; and &lt;code&gt;&amp;gt;&lt;/code&gt;)
 are automatically converted into HTML entities. This makes it very
@@ -567,13 +580,13 @@ it and indent it, and Markdown will handle the hassle of encoding the
 ampersands and angle brackets. For example, this:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;    &amp;lt;div class=&amp;quot;footer&amp;quot;&amp;gt;
         &amp;amp;copy; 2004 Foo Corporation
-    &amp;lt;/div&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;will turn into:&lt;/p&gt;
+    &amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;will turn into:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;pre&amp;gt;&amp;lt;code&amp;gt;&amp;amp;lt;div class=&amp;quot;footer&amp;quot;&amp;amp;gt;
     &amp;amp;amp;copy; 2004 Foo Corporation
 &amp;amp;lt;/div&amp;amp;gt;
-&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Regular Markdown syntax is not processed within code blocks. E.g.,
+&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Regular Markdown syntax is not processed within code blocks. E.g.,
 asterisks are just literal asterisks within a code block. This means
 it’s also easy to use Markdown to write about Markdown’s own syntax.&lt;/p&gt;
 &lt;h3 id=&quot;hr&quot;&gt;Horizontal Rules&lt;/h3&gt;
@@ -590,8 +603,8 @@ following lines will produce a horizontal rule:&lt;/p&gt;
 
 - - -
 
----------------------------------------&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
+---------------------------------------
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
 &lt;h2 id=&quot;span&quot;&gt;Span Elements&lt;/h2&gt;
 
 &lt;h3 id=&quot;link&quot;&gt;Links&lt;/h3&gt;
@@ -604,25 +617,25 @@ put the URL where you want the link to point, along with an &lt;em&gt;optional&l
 title for the link, surrounded in quotes. For example:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;This is [an example](http://example.com/ &amp;quot;Title&amp;quot;) inline link.
 
-[This link](http://example.net/) has no title attribute.&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Will produce:&lt;/p&gt;
+[This link](http://example.net/) has no title attribute.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Will produce:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;This is &amp;lt;a href=&amp;quot;http://example.com/&amp;quot; title=&amp;quot;Title&amp;quot;&amp;gt;
 an example&amp;lt;/a&amp;gt; inline link.&amp;lt;/p&amp;gt;
 
 &amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;http://example.net/&amp;quot;&amp;gt;This link&amp;lt;/a&amp;gt; has no
-title attribute.&amp;lt;/p&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;If you’re referring to a local resource on the same server, you can
+title attribute.&amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;If you’re referring to a local resource on the same server, you can
 use relative paths:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;See my [About](/about/) page for details.&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Reference-style links use a second set of square brackets, inside
+&lt;pre&gt;&lt;code&gt;See my [About](/about/) page for details.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Reference-style links use a second set of square brackets, inside
 which you place a label of your choosing to identify the link:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;This is [an example][id] reference-style link.&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;You can optionally use a space to separate the sets of brackets:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;This is [an example] [id] reference-style link.&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Then, anywhere in the document, you define your link label like this,
+&lt;pre&gt;&lt;code&gt;This is [an example][id] reference-style link.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;You can optionally use a space to separate the sets of brackets:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;This is [an example] [id] reference-style link.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Then, anywhere in the document, you define your link label like this,
 on a line by itself:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;[id]: http://example.com/  &amp;quot;Optional Title Here&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;That is:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[id]: http://example.com/  &amp;quot;Optional Title Here&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;That is:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Square brackets containing the link identifier (optionally
 indented from the left margin using up to three spaces);&lt;/li&gt;
@@ -637,12 +650,12 @@ in double or single quotes, or enclosed in parentheses.&lt;/li&gt;
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; There is a known bug in Markdown.pl 1.0.1 which prevents
 single quotes from being used to delimit link titles.&lt;/p&gt;
 &lt;p&gt;The link URL may, optionally, be surrounded by angle brackets:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;[id]: &amp;lt;http://example.com/&amp;gt;  &amp;quot;Optional Title Here&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;You can put the title attribute on the next line and use extra spaces
+&lt;pre&gt;&lt;code&gt;[id]: &amp;lt;http://example.com/&amp;gt;  &amp;quot;Optional Title Here&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;You can put the title attribute on the next line and use extra spaces
 or tabs for padding, which tends to look better with longer URLs:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;[id]: http://example.com/longish/path/to/resource/here
-    &amp;quot;Optional Title Here&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Link definitions are only used for creating links during Markdown
+    &amp;quot;Optional Title Here&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Link definitions are only used for creating links during Markdown
 processing, and are stripped from your document in the HTML output.&lt;/p&gt;
 &lt;p&gt;Link definition names may consist of letters, numbers, spaces, and
 punctuation — but they are &lt;em&gt;not&lt;/em&gt; case sensitive. E.g. these two
@@ -670,25 +683,25 @@ document, sort of like footnotes.&lt;/p&gt;
 
   [1]: http://google.com/        &amp;quot;Google&amp;quot;
   [2]: http://search.yahoo.com/  &amp;quot;Yahoo Search&amp;quot;
-  [3]: http://search.msn.com/    &amp;quot;MSN Search&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Using the implicit link name shortcut, you could instead write:&lt;/p&gt;
+  [3]: http://search.msn.com/    &amp;quot;MSN Search&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Using the implicit link name shortcut, you could instead write:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;I get 10 times more traffic from [Google][] than from
 [Yahoo][] or [MSN][].
 
   [google]: http://google.com/        &amp;quot;Google&amp;quot;
   [yahoo]:  http://search.yahoo.com/  &amp;quot;Yahoo Search&amp;quot;
-  [msn]:    http://search.msn.com/    &amp;quot;MSN Search&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Both of the above examples will produce the following HTML output:&lt;/p&gt;
+  [msn]:    http://search.msn.com/    &amp;quot;MSN Search&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Both of the above examples will produce the following HTML output:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;I get 10 times more traffic from &amp;lt;a href=&amp;quot;http://google.com/&amp;quot;
 title=&amp;quot;Google&amp;quot;&amp;gt;Google&amp;lt;/a&amp;gt; than from
 &amp;lt;a href=&amp;quot;http://search.yahoo.com/&amp;quot; title=&amp;quot;Yahoo Search&amp;quot;&amp;gt;Yahoo&amp;lt;/a&amp;gt;
-or &amp;lt;a href=&amp;quot;http://search.msn.com/&amp;quot; title=&amp;quot;MSN Search&amp;quot;&amp;gt;MSN&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;For comparison, here is the same paragraph written using
+or &amp;lt;a href=&amp;quot;http://search.msn.com/&amp;quot; title=&amp;quot;MSN Search&amp;quot;&amp;gt;MSN&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;For comparison, here is the same paragraph written using
 Markdown’s inline link style:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;I get 10 times more traffic from [Google](http://google.com/ &amp;quot;Google&amp;quot;)
 than from [Yahoo](http://search.yahoo.com/ &amp;quot;Yahoo Search&amp;quot;) or
-[MSN](http://search.msn.com/ &amp;quot;MSN Search&amp;quot;).&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The point of reference-style links is not that they’re easier to
+[MSN](http://search.msn.com/ &amp;quot;MSN Search&amp;quot;).
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The point of reference-style links is not that they’re easier to
 write. The point is that with reference-style links, your document
 source is vastly more readable. Compare the above examples: using
 reference-style links, the paragraph itself is only 81 characters
@@ -712,39 +725,39 @@ _single underscores_
 
 **double asterisks**
 
-__double underscores__&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;will produce:&lt;/p&gt;
+__double underscores__
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;will produce:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;em&amp;gt;single asterisks&amp;lt;/em&amp;gt;
 
 &amp;lt;em&amp;gt;single underscores&amp;lt;/em&amp;gt;
 
 &amp;lt;strong&amp;gt;double asterisks&amp;lt;/strong&amp;gt;
 
-&amp;lt;strong&amp;gt;double underscores&amp;lt;/strong&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;You can use whichever style you prefer; the lone restriction is that
+&amp;lt;strong&amp;gt;double underscores&amp;lt;/strong&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;You can use whichever style you prefer; the lone restriction is that
 the same character must be used to open and close an emphasis span.&lt;/p&gt;
 &lt;p&gt;Emphasis can be used in the middle of a word:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;un*frigging*believable&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;But if you surround an &lt;code&gt;*&lt;/code&gt; or &lt;code&gt;_&lt;/code&gt; with spaces, it’ll be treated as a
+&lt;pre&gt;&lt;code&gt;un*frigging*believable
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;But if you surround an &lt;code&gt;*&lt;/code&gt; or &lt;code&gt;_&lt;/code&gt; with spaces, it’ll be treated as a
 literal asterisk or underscore.&lt;/p&gt;
 &lt;p&gt;To produce a literal asterisk or underscore at a position where it
 would otherwise be used as an emphasis delimiter, you can backslash
 escape it:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;\*this text is surrounded by literal asterisks\*&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&quot;code&quot;&gt;Code&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;\*this text is surrounded by literal asterisks\*
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;code&quot;&gt;Code&lt;/h3&gt;
 
 &lt;p&gt;To indicate a span of code, wrap it with backtick quotes (&lt;code&gt;` &lt;/code&gt;).
 Unlike a pre-formatted code block, a code span indicates code within a
 normal paragraph. For example:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;Use the `printf()` function.&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;will produce:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;Use the &amp;lt;code&amp;gt;printf()&amp;lt;/code&amp;gt; function.&amp;lt;/p&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;To include a literal backtick character within a code span, you can use
+&lt;pre&gt;&lt;code&gt;Use the `printf()` function.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;will produce:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;Use the &amp;lt;code&amp;gt;printf()&amp;lt;/code&amp;gt; function.&amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;To include a literal backtick character within a code span, you can use
 multiple backticks as the opening and closing delimiters:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;``There is a literal backtick (`) here.``&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;which will produce this:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;&amp;lt;code&amp;gt;There is a literal backtick (`) here.&amp;lt;/code&amp;gt;&amp;lt;/p&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The backtick delimiters surrounding a code span may include spaces —
+&lt;pre&gt;&lt;code&gt;``There is a literal backtick (`) here.``
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;which will produce this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;&amp;lt;code&amp;gt;There is a literal backtick (`) here.&amp;lt;/code&amp;gt;&amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The backtick delimiters surrounding a code span may include spaces —
 one after the opening, one before the closing. This allows you to place
 literal backtick characters at the beginning or end of a code span:&lt;/p&gt;
 &lt;p&gt;  A single backtick in a code span: &lt;code&gt;` &lt;/code&gt;&lt;/p&gt;
@@ -757,15 +770,15 @@ literal backtick characters at the beginning or end of a code span:&lt;/p&gt;
 &lt;p&gt;With a code span, ampersands and angle brackets are encoded as HTML
 entities automatically, which makes it easy to include example HTML
 tags. Markdown will turn this:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;Please don&amp;#39;t use any `&amp;lt;blink&amp;gt;` tags.&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;into:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;Please don&amp;#39;t use any &amp;lt;code&amp;gt;&amp;amp;lt;blink&amp;amp;gt;&amp;lt;/code&amp;gt; tags.&amp;lt;/p&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;You can write this:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;`&amp;amp;#8212;` is the decimal-encoded equivalent of `&amp;amp;mdash;`.&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;to produce:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Please don&amp;#39;t use any `&amp;lt;blink&amp;gt;` tags.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;into:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;Please don&amp;#39;t use any &amp;lt;code&amp;gt;&amp;amp;lt;blink&amp;amp;gt;&amp;lt;/code&amp;gt; tags.&amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;You can write this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;`&amp;amp;#8212;` is the decimal-encoded equivalent of `&amp;amp;mdash;`.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;to produce:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;&amp;lt;code&amp;gt;&amp;amp;amp;#8212;&amp;lt;/code&amp;gt; is the decimal-encoded
-equivalent of &amp;lt;code&amp;gt;&amp;amp;amp;mdash;&amp;lt;/code&amp;gt;.&amp;lt;/p&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&quot;img&quot;&gt;Images&lt;/h3&gt;
+equivalent of &amp;lt;code&amp;gt;&amp;amp;amp;mdash;&amp;lt;/code&amp;gt;.&amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;img&quot;&gt;Images&lt;/h3&gt;
 
 &lt;p&gt;Admittedly, it’s fairly difficult to devise a “natural” syntax for
 placing images into a plain text document format.&lt;/p&gt;
@@ -774,8 +787,8 @@ for links, allowing for two styles: &lt;em&gt;inline&lt;/em&gt; and &lt;em&gt;re
 &lt;p&gt;Inline image syntax looks like this:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;![Alt text](/path/to/img.jpg)
 
-![Alt text](/path/to/img.jpg &amp;quot;Optional title&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;That is:&lt;/p&gt;
+![Alt text](/path/to/img.jpg &amp;quot;Optional title&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;That is:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;An exclamation mark: &lt;code&gt;!&lt;/code&gt;;&lt;/li&gt;
 &lt;li&gt;followed by a set of square brackets, containing the &lt;code&gt;alt&lt;/code&gt;
@@ -785,11 +798,11 @@ the image, and an optional &lt;code&gt;title&lt;/code&gt; attribute enclosed in 
 or single quotes.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Reference-style image syntax looks like this:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;![Alt text][id]&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Where “id” is the name of a defined image reference. Image references
+&lt;pre&gt;&lt;code&gt;![Alt text][id]
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Where “id” is the name of a defined image reference. Image references
 are defined using syntax identical to link references:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;[id]: url/to/image  &amp;quot;Optional title attribute&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;As of this writing, Markdown has no syntax for specifying the
+&lt;pre&gt;&lt;code&gt;[id]: url/to/image  &amp;quot;Optional title attribute&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;As of this writing, Markdown has no syntax for specifying the
 dimensions of an image; if this is important to you, you can simply
 use regular HTML &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt; tags.&lt;/p&gt;
 &lt;hr&gt;
@@ -798,20 +811,20 @@ use regular HTML &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt; tags.&lt;/p&gt;
 &lt;h3 id=&quot;autolink&quot;&gt;Automatic Links&lt;/h3&gt;
 
 &lt;p&gt;Markdown supports a shortcut style for creating “automatic” links for URLs and email addresses: simply surround the URL or email address with angle brackets. What this means is that if you want to show the actual text of a URL or email address, and also have it be a clickable link, you can do this:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;http://example.com/&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Markdown will turn this into:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;a href=&amp;quot;http://example.com/&amp;quot;&amp;gt;http://example.com/&amp;lt;/a&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Automatic links for email addresses work similarly, except that
+&lt;pre&gt;&lt;code&gt;&amp;lt;http://example.com/&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Markdown will turn this into:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;a href=&amp;quot;http://example.com/&amp;quot;&amp;gt;http://example.com/&amp;lt;/a&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Automatic links for email addresses work similarly, except that
 Markdown will also perform a bit of randomized decimal and hex
 entity-encoding to help obscure your address from address-harvesting
 spambots. For example, Markdown will turn this:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;address@example.com&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;into something like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;address@example.com&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;into something like this:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;a href=&amp;quot;&amp;amp;#x6D;&amp;amp;#x61;i&amp;amp;#x6C;&amp;amp;#x74;&amp;amp;#x6F;:&amp;amp;#x61;&amp;amp;#x64;&amp;amp;#x64;&amp;amp;#x72;&amp;amp;#x65;
 &amp;amp;#115;&amp;amp;#115;&amp;amp;#64;&amp;amp;#101;&amp;amp;#120;&amp;amp;#x61;&amp;amp;#109;&amp;amp;#x70;&amp;amp;#x6C;e&amp;amp;#x2E;&amp;amp;#99;&amp;amp;#111;
 &amp;amp;#109;&amp;quot;&amp;gt;&amp;amp;#x61;&amp;amp;#x64;&amp;amp;#x64;&amp;amp;#x72;&amp;amp;#x65;&amp;amp;#115;&amp;amp;#115;&amp;amp;#64;&amp;amp;#101;&amp;amp;#120;&amp;amp;#x61;
-&amp;amp;#109;&amp;amp;#x70;&amp;amp;#x6C;e&amp;amp;#x2E;&amp;amp;#99;&amp;amp;#111;&amp;amp;#109;&amp;lt;/a&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;which will render in a browser as a clickable link to “address@example.com”.&lt;/p&gt;
+&amp;amp;#109;&amp;amp;#x70;&amp;amp;#x6C;e&amp;amp;#x2E;&amp;amp;#99;&amp;amp;#111;&amp;amp;#109;&amp;lt;/a&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;which will render in a browser as a clickable link to “address@example.com”.&lt;/p&gt;
 &lt;p&gt;(This sort of entity-encoding trick will indeed fool many, if not
 most, address-harvesting bots, but it definitely won’t fool all of
 them. It’s better than nothing, but an address published in this way
@@ -823,8 +836,8 @@ characters which would otherwise have special meaning in Markdown’s
 formatting syntax. For example, if you wanted to surround a word
 with literal asterisks (instead of an HTML &lt;code&gt;&amp;lt;em&amp;gt;&lt;/code&gt; tag), you can use
 backslashes before the asterisks, like this:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;\*literal asterisks\*&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Markdown provides backslash escapes for the following characters:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;\*literal asterisks\*
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Markdown provides backslash escapes for the following characters:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;\   backslash
 `   backtick
 *   asterisk
@@ -832,8 +845,8 @@ _   underscore
 {}  curly braces
 []  square brackets
 ()  parentheses
-#   hash mark&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
+#   hash mark
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;plus sign&lt;/li&gt;
 &lt;/ul&gt;
 &lt;ul&gt;
