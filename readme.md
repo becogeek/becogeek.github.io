@@ -28,6 +28,7 @@ O **Beco Geek** é desenvolvido com [wintersmith][3], um gerador de conteúdo es
 > Todos os comandos abaixo devem ser executados no terminal, se você usa windows é melhor que abra o terminal como **administrador** se usa linux ou mac pode precisar usar **sudo** em alguns comandos.
 
 1- Certifique-se de ter no [node.js][4] instalado na sua máquina.
+
 2- Instale o [wintersmith][3] via pelo npm:
 ```
 npm install -g wintersmith
