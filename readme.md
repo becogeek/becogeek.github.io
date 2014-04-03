@@ -17,7 +17,7 @@ O **Beco Geek** é desenvolvido com [wintersmith][3], um gerador de conteúdo es
 > Abaixo você encontra a atual lista de branchs:
 >
 > | Branch     | Finalidade                                           |
-> | :----------| ----------------------------------------------------:|
+> | :----------| :----------------------------------------------------|
 > | gh-pages   | Produção publicada                                   |
 > | master     | Versão estável - novos branchs pantem daqui          |
 > | developer  | Ambiente de desenvolvimento de novas funcionalidades |
