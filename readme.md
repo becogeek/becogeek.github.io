@@ -46,9 +46,9 @@ Depois de executar este comando acesse [localhost:8080][5], se o site abrir norm
 []'s
 
 --
-**Stark**
-Mecânico e Funileiro no BecoGeek
-stark@becogeek.com.br
+**Stark** <br/>
+Mecânico e Funileiro no BecoGeek <br/>
+stark@becogeek.com.br <br/>
 [@Stark_BecoGeek][6]
 
 
