@@ -49,11 +49,14 @@ html(lang='en')
               a(href=locals.url)= locals.name
             p.description= locals.description
     div.container.marketing
-      div
-        block content
-          h2 Welcome to zombocom!
+      block content
     footer
+      - var alltags = env.helpers.getAllTags()
+      ul.wordcloud
+        each tag in alltags
+          li
+            a.tag(href=env.helpers.getTagHome(tag).url)= "#"+ tag
       div
         block footer
           section.copy
-            p &copy; #{ new Date().getFullYear() } #{ locals.owner } &mdash; powered by&nbsp;
+            p -- &copy; #{ new Date().getFullYear() } #{ locals.owner } --

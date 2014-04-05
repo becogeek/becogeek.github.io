@@ -4,6 +4,7 @@ block content
   include author
   - var cont = 0;
   each article in articles
+    - var tags = env.helpers.getTagsFromArticle(article)
     if cont%2 === 0
       hr.featurette-divider
       .row.featurette
@@ -14,6 +15,10 @@ block content
             !{ typogr(article.intro).typogrify() }
           p.date
             span= moment.utc(article.date).format('DD. MMMM YYYY')
+          ul.tag-list
+            each tag in tags
+              li
+                a.tag(href=env.helpers.getTagHome(tag).url)= "#"+tag
         .col-md-4.text-right
           img.post-img(alt='texto alternativo', src='img/250x250.jpeg')
     else
@@ -28,20 +33,14 @@ block content
             !{ typogr(article.intro).typogrify() }
           p.date
             span= moment.utc(article.date).format('DD. MMMM YYYY')
+          ul.tag-list
+            each tag in tags
+              li
+                a.tag(href=env.helpers.getTagHome(tag).url)= "#"+tag
     - cont = cont + 1;
-  hr.featurette-divider
-  div.nav
-    if prevPage
-      a(href=prevPage.url) « Newer
-    else
-      a(href='/archive.html') « Archives
-    if nextPage
-      a(href=nextPage.url) Next page »
-
-
-//-block prepend footer
   
-   
-
-
-
+  div.pageNav
+    if prevPage
+      a(href=prevPage.url) « Posts anteriores
+    if nextPage
+      a(href=nextPage.url) Próxima página »

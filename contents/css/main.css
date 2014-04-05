@@ -1,7 +1,6 @@
 /*customização para o menu fixo*/
 body {
   font-family: 'Didact Gothic', sans-serif; 
-  min-height: 2000px;
   padding-top: 70px;
 }
 h1,h2,h3,h4{font-family: 'Didact Gothic', sans-serif;}
@@ -29,3 +28,68 @@ h1,h2,h3,h4{font-family: 'Didact Gothic', sans-serif;}
 .text-right{
 	text-align: right;
 }
+
+footer{
+	background-color: #4c66a4;
+	padding-bottom: 1em;
+}
+	footer p{
+		margin:0;
+		color:#fff;
+		text-align: center;
+	}
+
+.pageNav{
+	margin: 1em 0;
+}
+.pageNav a{
+	padding:0.2em 0.5em 0.3em 0.5em;
+	margin-right: 1em;
+	border-radius:0.3em;
+	letter-spacing: 0.2em;
+	text-decoration: none;
+	color: #fff;
+	background-color: #292929;
+}
+
+/** tags **/
+.tag-list, .wordcloud{
+	margin:0 0 1em 0;
+	padding:0;
+	list-style: none;
+}
+.wordcloud{
+	width: 85%;
+	margin:0 auto;
+	padding: 1em 0;
+}
+.wordcloud::before{
+	content: "O que você esta procurando?";
+	text-indent: 0.5em;
+	margin-bottom: 0.6em;
+	display:block;
+	color:#fff;
+}
+	.tag-list li, .wordcloud li{
+		display: inline-block;
+	}
+		.tag{
+			padding:0.2em 0.5em 0.3em 0.5em;
+			border-radius:0.3em;
+			letter-spacing: 0.1em;
+			text-decoration: none;
+			color: #fff;
+		}
+		.tag-list .tag{
+			background-color: #4c66a4;
+		}
+		.tag-list .tag:hover{
+			color:#fff;
+			background-color: #3a92c8;
+			text-decoration: none;
+		}
+		.wordcloud .tag:hover{
+			color: #4c66a4;
+			background-color: #fff;
+			text-decoration: none;
+		}
