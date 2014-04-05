@@ -53,7 +53,7 @@ Como utilizamos o [wintersmith][3] a adição de posts é bem simples, basta seg
 {
   "name": "Stark",
   "email": "stark@becogeek.com.br",
-  "twitter": "https://twitter.com/stark_becogeek"
+  "twitter": "https://twitter.com/stark_becogeek",
   "bio": "Idealizador do BecoGeek e um completo viciado em HQ's, CardGames, Vídeo Games, também conhecido como o macânico e funileiro do Beco Geek"
 }
 ```
