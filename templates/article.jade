@@ -21,5 +21,5 @@ block content
         a.tag(href=env.helpers.getTagHome(tag).url)= "#" + tag
   article.article
     section.content!= typogr(page.html).typogrify()
-
+  include comments
 block prepend footer

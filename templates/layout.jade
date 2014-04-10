@@ -14,17 +14,7 @@ html(lang='en')
       link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Didact+Gothic')
       link(rel='stylesheet', href='/bootstrap/css/bootstrap.min.css')
       link(rel='stylesheet', href='/css/main.css')
-      script(type="text/javascript")
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-49904792-1']);
-        _gaq.push(['_trackPageview']);
-
-        (function() {
-          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-          ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
-          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-        
+      script(type="text/javascript", src="/scripts/google-analytics.js")        
   body(class=bodyclass)
     header.header
       .navbar.navbar-default.navbar-fixed-top.navbar-inverse(role='navigation')
